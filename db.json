@@ -177,6 +177,27 @@
       "total": 260000,
       "waktu": "2025-07-08T01:45:04.346Z",
       "selesai": true
+    },
+    {
+      "id": "1751955975907",
+      "pelanggan": "rama",
+      "items": [
+        {
+          "id": 102,
+          "nama": "Hot Stone Massage",
+          "harga": 150000,
+          "jumlah": 1
+        },
+        {
+          "id": 203,
+          "nama": "Refleksi Tangan",
+          "harga": 85000,
+          "jumlah": 1
+        }
+      ],
+      "total": 235000,
+      "waktu": "2025-07-08T06:26:15.907Z",
+      "selesai": true
     }
   ]
 }

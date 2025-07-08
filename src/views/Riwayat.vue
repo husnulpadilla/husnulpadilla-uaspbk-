@@ -39,7 +39,7 @@ onMounted(() => {
   transaksiStore.fetchTransaksi()
 })
 
-const transaksiSelesai = computed(() => transaksiStore.transaksiSelesai)
+const transaksiSelesai = computed(() => transaksiStore.transaksiSelesai.reverse())
 
 const formatWaktu = (iso) => {
   return new Date(iso).toLocaleString('id-ID', {
