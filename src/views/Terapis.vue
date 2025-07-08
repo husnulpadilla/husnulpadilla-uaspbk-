@@ -1,0 +1,3 @@
+<template>
+    Terapis
+</template>
