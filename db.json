@@ -1,0 +1,71 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "kategori": "Spa",
+      "variasi": [
+        { "id": 101, "nama": "Body Spa Aromatherapy", "harga": 120000 },
+        { "id": 102, "nama": "Hot Stone Massage", "harga": 150000 }
+      ]
+    },
+    {
+      "id": 2,
+      "kategori": "Refleksi",
+      "variasi": [
+        { "id": 201, "nama": "Refleksi Kaki", "harga": 80000 },
+        { "id": 202, "nama": "Refleksi Punggung", "harga": 90000 }
+      ]
+    },
+    {
+      "id": 3,
+      "kategori": "Totok",
+      "variasi": [
+        { "id": 301, "nama": "Totok Wajah", "harga": 70000 },
+        { "id": 302, "nama": "Totok Tubuh", "harga": 95000 }
+      ]
+    }
+  ],
+
+  "transaksi": [
+    {
+      "id": "T001",
+      "pelanggan": "Dina",
+      "items": [
+        { "id": 101, "nama": "Body Spa Aromatherapy", "harga": 120000, "jumlah": 1 }
+      ],
+      "total": 120000,
+      "waktu": "2025-07-07T10:00:00.000Z",
+      "selesai": false,
+      "terapisId": 1
+    },
+    {
+      "id": "T002",
+      "pelanggan": "Rina",
+      "items": [
+        { "id": 201, "nama": "Refleksi Kaki", "harga": 80000, "jumlah": 1 }
+      ],
+      "total": 80000,
+      "waktu": "2025-07-07T11:00:00.000Z",
+      "selesai": true,
+      "terapisId": 2
+    }
+  ],
+
+  "terapis": [
+    {
+      "id": 1,
+      "nama": "Mbak Sari",
+      "spesialis": "Spa"
+    },
+    {
+      "id": 2,
+      "nama": "Mbak Lina",
+      "spesialis": "Refleksi"
+    },
+    {
+      "id": 3,
+      "nama": "Mbak Ayu",
+      "spesialis": "Totok"
+    }
+  ]
+}
