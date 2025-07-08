@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 pt-24 pb-16 px-6 relative">
     <!-- Tombol Keranjang -->
-    <router-link
-      to="/transaksi"
+    <button
+      @click="router.push('/pengerjaan')"
       class="fixed top-20 right-6 z-50 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full shadow-lg flex items-center"
     >
       🧺 Keranjang
@@ -12,7 +12,7 @@
       >
         {{ keranjangCount }}
       </span>
-    </router-link>
+    </button>
 
     <div class="w-full mx-auto space-y-16">
       <!-- Judul -->
@@ -51,7 +51,9 @@
 import { onMounted, computed } from 'vue'
 import { useMenuStore } from '@/stores/menuStore'
 import { useTransaksiStore } from '@/stores/transaksiStore'
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
 const menuStore = useMenuStore()
 const transaksiStore = useTransaksiStore()
 
